@@ -50,6 +50,7 @@ export default function CenteredGrid() {
     setFileName(file.name);
     formdata.append("file", file, file.name);
     setLoading(true);
+    setData({})
     const returnData = await UploadFunc(formdata);
     setLoading(false);
     setData(returnData);
