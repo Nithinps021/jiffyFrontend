@@ -18,7 +18,7 @@ export default function DenseAppBar() {
       <AppBar position="static">
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit">
-            JIFFY rental
+            JIFFY rental(upload a .txt file of the rental agreement)
           </Typography>
         </Toolbar>
       </AppBar>
